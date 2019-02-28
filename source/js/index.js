@@ -14,6 +14,7 @@
     m = d.getMinutes()
     s = d.getSeconds()
     
+    console.log(h, m, s)
     hour.style.transform = `rotate(${((h/12)*360) + ((m/60)*30) + 270}deg)`
     min.style.transform = `rotate(${(m/60)*360 + 180}deg)`
     sec.style.transform = `rotate(${(s/60)*360 + 180}deg)`
